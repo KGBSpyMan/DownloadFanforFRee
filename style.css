@@ -1,0 +1,103 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: 99%;
+    height: 1000px;
+	position: static;
+    border: 5px solid black;
+    float: left;
+}
+.header{
+    width: 100%;
+    background-color:#333;
+    float: left;
+    
+ } 
+.header  h1{
+	color: white;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+    text-align: center;
+    
+}
+.contentl{
+    width: 25%;
+	height: 80%;
+    background-color:yellow;
+    float: left;
+ } 
+ .contentm{
+    width: 50%;
+	height: 80%;
+    background-color:rgb(66, 66, 66);
+    float: left;
+    font-size: 30px;
+ } 
+ .contentr{
+    width: 25%;
+	height: 80%;
+    background-color:blue;
+    float: left;
+ } 
+ .footer{
+    width: 100%;
+	height: 30%;
+    background-color:rgb(66, 66, 66);
+    float: left;
+ } 
+.banner{
+    width: 100%;
+    height: 30%;
+    background-color:black;
+    color:#ffffff;
+    float: left;
+    text-align:center ;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: red;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {background-color: #b1f386; padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+ position: absolute;
+ top: 55%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
